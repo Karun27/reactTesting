@@ -40,9 +40,9 @@ wrapper = setUp(initialState);
         expect(newState).toBe(true);
     });
 
-    it('exampleMethod_returnsValue method should return value as expected' , () => {
-        const classInstance = wrapper.instance();
-        const newValue = classInstance.exampleMethod_returnsValue(6);
-        expect(newValue).toBe(7);
-    });
+    // it('exampleMethod_returnsValue method should return value as expected' , () => {
+    //     const classInstance = wrapper.instance();
+    //     const newValue = classInstance.exampleMethod_returnsValue(6);
+    //     expect(newValue).toBe(7);
+    // });
 });
